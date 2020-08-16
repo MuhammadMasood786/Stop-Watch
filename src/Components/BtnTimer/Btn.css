@@ -1,0 +1,30 @@
+.BtnStyle{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.fa-repeat,.fa-pause-circle{
+    font-size: 50px !important;
+    margin: 10px;
+    text-shadow: 2px 3px 5px gray;
+}
+.fa-play-circle{
+    font-size: 100px !important;
+    margin-top: -12px;
+    text-shadow: 2px 3px 5px gray;
+}
+.fa-pause-circle:hover{
+    color: red !important;
+    font-size: 44px !important;
+}
+.fa-play-circle:hover{
+    color: yellow !important;
+    font-size: 105px !important;
+}
+.fa-repeat:hover{
+    color: green !important;
+    font-size: 44px !important;
+}

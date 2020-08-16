@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.TimerStyle {
+  text-align: center;
+  margin-top: 0px;
+}
+.hour {
+  font-size: 150px;
+  text-shadow: 2px 3px 5px gray;
+  font-weight: lighter;
+}
+.min {
+  font-size: 50px;
+  text-shadow: 2px 3px 5px gray;
+  margin-top: -25px !important;
+}
+.dot {
+  font-size: 50px;
+  margin-top: -25px !important;
+}
+.sec {
+  font-size: 50px;
+  text-shadow: 2px 3px 5px gray;
+  margin-top: -25px !important;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}

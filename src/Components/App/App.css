@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+.App{
+  margin-top: 30px;
+  text-align: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+.App>h1{
+  font-family: 'Rowdies', cursive;
+  font-size: 50px;
+  text-shadow: 3px 3px 5px grey;
+}
+body{
+ background-image: url('../../Images/Bg-img.gif');
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.fa-clock-o{
+  font-size: 100px !important;
+  color:red !important;
+  font-weight: bold !important;
+  margin-left: 10px !important;
+}
+.fa-clock-o:hover{
+  font-size: 120px !important;
+  color:green !important;
+  font-weight: bold !important;
+  margin-left: 10px !important;
+}
